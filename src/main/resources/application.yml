@@ -24,3 +24,14 @@ spring:
       hibernate:
         temp:
           use_jdbc_metadata_defaults: false
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: seuemail@gmail.com
+    password: suasenhaaqui
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
